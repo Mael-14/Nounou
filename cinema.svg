@@ -1,0 +1,43 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="96" fill="#ffe6e9"/>
+
+  <!-- clapperboard -->
+  <g transform="translate(28 108) rotate(-6)">
+    <rect x="0" y="14" width="76" height="46" rx="4" fill="#7b4c57"/>
+    <rect x="0" y="0" width="76" height="16" rx="3" fill="#4a2c34"/>
+    <g fill="#ffe6e9">
+      <polygon points="4,0 16,0 8,16 -4,16"/>
+      <polygon points="26,0 38,0 30,16 18,16"/>
+      <polygon points="48,0 60,0 52,16 40,16"/>
+      <polygon points="70,0 82,0 74,16 62,16"/>
+    </g>
+  </g>
+
+  <!-- popcorn bucket -->
+  <path d="M118 92 h48 l-8 62 h-32 z" fill="#ff6b81"/>
+  <g stroke="#ffe6e9" stroke-width="3">
+    <line x1="128" y1="94" x2="122" y2="150"/>
+    <line x1="142" y1="94" x2="142" y2="152"/>
+    <line x1="156" y1="94" x2="162" y2="150"/>
+  </g>
+  <g fill="#fff6ec">
+    <circle cx="122" cy="88" r="8"/>
+    <circle cx="136" cy="82" r="9"/>
+    <circle cx="150" cy="88" r="8"/>
+    <circle cx="162" cy="90" r="7"/>
+    <circle cx="129" cy="80" r="6"/>
+    <circle cx="145" cy="76" r="6"/>
+    <circle cx="156" cy="78" r="6"/>
+  </g>
+
+  <!-- ticket -->
+  <g transform="translate(96 40) rotate(12)">
+    <rect x="0" y="0" width="46" height="22" rx="4" fill="#ffb3c1"/>
+    <circle cx="0" cy="11" r="4" fill="#ffe6e9"/>
+    <circle cx="46" cy="11" r="4" fill="#ffe6e9"/>
+    <line x1="12" y1="4" x2="12" y2="18" stroke="#ffe6e9" stroke-width="2" stroke-dasharray="2,2"/>
+  </g>
+
+  <!-- little hearts -->
+  <path d="M40 150 c-4 -6 -12 -3 -12 4 c0 6 12 12 12 12 s12 -6 12 -12 c0 -7 -8 -10 -12 -4z" fill="#ff6b81" opacity="0.85"/>
+</svg>

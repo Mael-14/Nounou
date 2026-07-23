@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Do you love me? | @coding.stella</title>
+</head>
+<body>
+
+<!-- Screen 1: Do you love me -->
+<div class="screen question-container container" data-screen="q1">
+  <video class="local-gif" src="Reply me love.mp4" autoplay muted loop playsinline></video>
+  <h2 class="question">Do you love me?</h2>
+  <div class="button-container">
+    <button class="yes-btn btn js-yes-btn">Yes</button>
+    <button class="no-btn btn js-no-btn">No</button>
+    <button class="maybe-btn btn js-maybe-btn">I don't know</button>
+  </div>
+</div>
+
+<!-- Screen 2: serious / neutral -->
+<div class="screen neutral-container container" data-screen="serious">
+  <div class="neutral-card">
+    <video class="answer-gif" src="answer -me.mp4" autoplay muted loop playsinline></video>
+    <div class="cry-emoji">😢</div>
+    <h2>Be serious nounou 😢</h2>
+    <p>No pressure, but I really need a real answer from you...</p>
+    <button class="btn back-btn js-back-to-q1">← Go back</button>
+  </div>
+</div>
+
+<!-- Screen 3: result (yes) -->
+<div class="screen result-container container" data-screen="result">
+  <video class="gif-result" src="Love me.mp4" autoplay loop playsinline></video>
+  <h2>I knew it😍!</h2>
+  <button class="next-link js-go-to-q2">
+    <span>Next question</span>
+    <span class="arrow">→</span>
+  </button>
+</div>
+
+<!-- Screen 4: Q2 date question -->
+<div class="screen q2-container container" data-screen="q2">
+  <h2 class="question q2-question">Will you want to have a date with me in September?</h2>
+  <div class="option-grid">
+    <button class="option-card js-option" data-option="picnic">
+      <img src="picnic.svg" alt="Picnic illustration" class="option-img" />
+      <span>Picnic 🧺</span>
+    </button>
+    <button class="option-card js-option" data-option="cinema">
+      <img src="cinema.svg" alt="Cinema illustration" class="option-img" />
+      <span>Cinema 🎬</span>
+    </button>
+  </div>
+</div>
+
+<!-- Screen 5: calendar -->
+<div class="screen calendar-container container" data-screen="calendar">
+  <div class="calendar-card">
+    <h2 class="calendar-title">Pick our <span class="js-option-label">date</span> day 💕</h2>
+    <p class="calendar-subtitle">September 2026</p>
+    <div class="calendar-grid js-calendar-grid"></div>
+    <p class="selected-date js-selected-date">No date selected yet</p>
+    <div class="calendar-actions">
+      <button class="btn back-btn js-back-to-q2">← Back</button>
+      <button class="btn ok-btn js-ok-btn" disabled>OK</button>
+    </div>
+  </div>
+</div>
+
+<!-- Screen 6: final -->
+<div class="screen final-container container" data-screen="final">
+  <video class="gif-result" src="lets-go.mp4" autoplay loop playsinline></video>
+  <h2>Let's go babe 🥳💕</h2>
+  <p class="final-sub js-final-summary"></p>
+</div>
+
+<div class="cssload-main">
+  <div class="cssload-heart">
+    <span class="cssload-heartL"></span>
+    <span class="cssload-heartR"></span>
+    <span class="cssload-square"></span>
+  </div>
+  <div class="cssload-shadow"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

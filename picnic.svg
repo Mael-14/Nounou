@@ -1,0 +1,37 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="96" fill="#ffe6e9"/>
+  <circle cx="150" cy="46" r="20" fill="#ffd9a0"/>
+  <g stroke="#ffd9a0" stroke-width="4" stroke-linecap="round">
+    <line x1="150" y1="14" x2="150" y2="6"/>
+    <line x1="178" y1="46" x2="186" y2="46"/>
+    <line x1="170" y1="24" x2="176" y2="18"/>
+    <line x1="170" y1="68" x2="176" y2="74"/>
+  </g>
+
+  <!-- blanket -->
+  <ellipse cx="100" cy="150" rx="78" ry="30" fill="#ff8fa3"/>
+  <g fill="#ffb3c1">
+    <rect x="30" y="132" width="16" height="16"/>
+    <rect x="62" y="132" width="16" height="16"/>
+    <rect x="94" y="132" width="16" height="16"/>
+    <rect x="126" y="132" width="16" height="16"/>
+    <rect x="158" y="132" width="16" height="16"/>
+    <rect x="46" y="148" width="16" height="16"/>
+    <rect x="78" y="148" width="16" height="16"/>
+    <rect x="110" y="148" width="16" height="16"/>
+    <rect x="142" y="148" width="16" height="16"/>
+  </g>
+
+  <!-- basket -->
+  <path d="M70 96 h60 l-8 42 h-44 z" fill="#c98a5b"/>
+  <path d="M70 96 h60 l-3 14 h-54 z" fill="#a86c3f"/>
+  <path d="M84 96 c0 -20 32 -20 32 0" fill="none" stroke="#a86c3f" stroke-width="6"/>
+
+  <!-- baguette + apple -->
+  <rect x="60" y="74" width="10" height="34" rx="5" fill="#e8b878" transform="rotate(-18 65 91)"/>
+  <circle cx="128" cy="86" r="9" fill="#ff6b81"/>
+  <path d="M128 77 q4 -6 8 -2" fill="none" stroke="#6bbf6b" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- little hearts -->
+  <path d="M40 60 c-4 -6 -12 -3 -12 4 c0 6 12 12 12 12 s12 -6 12 -12 c0 -7 -8 -10 -12 -4z" fill="#ff6b81" opacity="0.85"/>
+</svg>
